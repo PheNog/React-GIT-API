@@ -32,7 +32,7 @@ export function Repositories(){
                     )
                 }) }
             </S.List>
-            <S.LinkHome to="/"> Voltar a Home. </S.LinkHome>
+            <S.LinkHome to="/React-GIT-API"> Voltar a Home. </S.LinkHome>
         </S.Container>
     )
 }
