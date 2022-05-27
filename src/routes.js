@@ -7,7 +7,7 @@ import {App as Home} from './pages/home/index.js'
 
 export function Router() {
     return(
-        <BrowserRouter>
+        <BrowserRouter basesename={process.env.PUBLIC_URL}>
             <Routes>
                 <Route path='/' element={<Home />} />
                 <Route path='/repositories' element={<Repositories />} /> 
