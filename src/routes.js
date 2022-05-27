@@ -9,7 +9,7 @@ export function Router() {
     return(
         <BrowserRouter basesename={process.env.PUBLIC_URL}>
             <Routes>
-                <Route path='/' element={<Home />} />
+                <Route path='/React-GIT-API' element={<Home />} />
                 <Route path='/repositories' element={<Repositories />} /> 
             </Routes>
         </BrowserRouter> 
